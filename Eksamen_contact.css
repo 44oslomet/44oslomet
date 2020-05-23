@@ -1,0 +1,125 @@
+
+h1, p, a {
+font-family: hwt-artz, sans-serif;}
+
+body {
+ margin: 0;
+ font-size: 0;
+ background-color: white;
+}
+
+.topnav {
+ overflow: hidden;
+ background-color: white;
+ height: 100px;
+ padding-left: 100px;
+ padding-right: 20px;
+}
+
+.topnav logo{
+ float:left;
+ width: 100%; 
+ display: flex;
+ padding-top: 10px;
+}
+
+.topnav a {
+ float: right;
+ color: #e5152c;
+ text-align: center;
+ padding: 30px 30px 40px;
+ text-decoration: none;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.topnav a:hover {
+ background-color: #e5152c;
+ color: white;
+ height: 100px;
+}
+
+.book-box{
+ width: 100%;
+ position: relative;
+ display: inline-block;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ background-color: #e5152c;
+}
+
+.book-text1 {
+ width: 45%;
+ font-size: 45px;
+ color: white;
+ float: left;
+ margin-left: 5%;
+}
+
+.book-text2{
+ width: 45%;
+ color: white;
+ font-size: 27px;
+ float: right;
+ font-weight: bold;
+}
+
+.form [type="text"]{
+ margin-top: 1%;
+}
+
+.form input {
+ width: 80%;  
+ height: 30px;
+}
+
+.form [name="bookingmessage"]{
+ width: 80%; 
+ height: 200px;
+}
+
+.button {
+font-family: degular, sans-serif; background-color: #148D61;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ height: 60px;
+ width:200px;
+ border: none;
+ cursor: pointer;
+}
+
+.button:hover {
+ background-color: #F0AF2F;
+}
+
+
+.footer {
+ margin: 0;
+ width: 100%;
+ height: 150%;
+ background-color: #e5152c; 
+ display: inline-block;
+ color: white;
+ overflow: hidden;
+}
+
+.table-container {
+ display: flex;
+ justify-content: center;
+ padding-top: 4%;
+ padding-bottom: 6%; 
+}
+
+.table img {   
+ width: 100%;
+}
+
+.table, th, td, a {
+ text-align: center;    
+ font-size: 20px; 
+ padding-left: 1.5rem;
+ font-weight: bold;
+ color: white;
+ text-decoration-line: none;
+}
